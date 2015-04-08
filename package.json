@@ -1,0 +1,32 @@
+{
+  "name": "swipe-quiz",
+  "version": "0.0.1",
+  "description": "Swipe Quiz",
+  "main": "build/server.js",
+  "scripts": {
+    "test": "echo \"(ノಠ益ಠ)ノ彡┻━┻ nooooooo test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cardoni/swipe-quiz.git"
+  },
+  "keywords": [
+    "\"swipe",
+    "quiz\"",
+    "\"quiz",
+    "swipe\"",
+    "\"swipe-quiz\"",
+    "\"quiz-swipe\"",
+    "\"swipe\"",
+    "\"quiz\"",
+    "\"tinder",
+    "swipe\"",
+    "\"cardoni\""
+  ],
+  "author": "Greg Cardoni <greg@cardoni.net> (http://cardoni.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cardoni/swipe-quiz/issues"
+  },
+  "homepage": "https://github.com/cardoni/swipe-quiz"
+}
