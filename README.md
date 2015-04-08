@@ -1,3 +1,2 @@
-Welcome to Swipe Quiz: Greg's magical proof-of-concept.
-
-http://swipequiz.co/
+# Welcome to Swipe Quiz
+https://swipequiz.co
