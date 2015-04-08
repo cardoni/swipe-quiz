@@ -34,5 +34,8 @@
   "homepage": "https://github.com/cardoni/swipe-quiz",
   "devDependencies": {
     "uglifyjs": "^2.4.10"
+  },
+  "dependencies": {
+    "fairmont": "^1.0.0-alpha-20"
   }
 }
