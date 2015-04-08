@@ -2,31 +2,37 @@
   "name": "swipe-quiz",
   "version": "0.0.1",
   "description": "Swipe Quiz",
-  "main": "build/server.js",
+  "main": "build/app.min.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"(ノಠ益ಠ)ノ彡┻━┻ nooooooo test\" && exit 1"
+    "start": "cd ./src/ && nodemon --debug server.coffee",
+    "test": "echo \"(ノಠ益ಠ)ノ彡┻━┻ nooooooo test\" && exit 1",
+    "compress": "uglifyjs --screw-ie8 --stats build/app.js > build/app.min.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/cardoni/swipe-quiz.git"
   },
   "keywords": [
-    "\"swipe",
-    "quiz\"",
-    "\"quiz",
-    "swipe\"",
-    "\"swipe-quiz\"",
-    "\"quiz-swipe\"",
-    "\"swipe\"",
-    "\"quiz\"",
-    "\"tinder",
-    "swipe\"",
-    "\"cardoni\""
+    "swipe",
+    "quiz",
+    "quiz",
+    "swipe",
+    "swipe-quiz",
+    "quiz-swipe",
+    "swipe",
+    "quiz",
+    "tinder",
+    "swipe",
+    "cardoni"
   ],
-  "author": "Greg Cardoni <greg@cardoni.net> (http://cardoni.net)",
+  "author": "Greg Cardoni <greg@cardoni.net> (https://cardoni.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cardoni/swipe-quiz/issues"
   },
-  "homepage": "https://github.com/cardoni/swipe-quiz"
+  "homepage": "https://github.com/cardoni/swipe-quiz",
+  "devDependencies": {
+    "uglifyjs": "^2.4.10"
+  }
 }
