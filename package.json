@@ -33,7 +33,11 @@
   },
   "homepage": "https://github.com/cardoni/swipe-quiz",
   "devDependencies": {
-    "uglifyjs": "^2.4.10"
+    "browserify": "^9.0.8",
+    "exorcist": "^0.1.6",
+    "uglify-js": "^2.4.20",
+    "uglifyjs": "^2.4.10",
+    "watchify": "^3.1.1"
   },
   "dependencies": {}
 }
